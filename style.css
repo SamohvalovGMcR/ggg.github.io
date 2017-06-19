@@ -58,7 +58,7 @@ border-bottom:1px solid #c8cedd;
 .d500{
  height:500px;
 
- background:url(sit2.png) no-repeat;
+ background:url(sit2.PNG) no-repeat;
 }
 
 .d185{
@@ -84,7 +84,7 @@ box-shadow: 0 0 5px 3px rgba(255,255,255,0.75);
   margin-right: 5px ;
 float:right;
  text-align:right;
- background:url(keys11.GIF);
+ background:url(keys11.PNG);
  background-size: 355px 95px;
  background-repeat: no-repeat;  
 
@@ -109,7 +109,7 @@ background-position: bottom;
 }
 
 .divn1 button:nth-child(1){
-background:url(bus1.png) no-repeat;
+background:url(bus1.PNG) no-repeat;
  
 border: 3px double #dadfde;
 }
