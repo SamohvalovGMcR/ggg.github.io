@@ -203,6 +203,10 @@ background:url(lpch.png) no-repeat;
  
 }
 
+.center div button{
+border-radius: 25px; 
+}
+
 .center div button:hover {
  background:white; 
  border-radius: 25px; 
