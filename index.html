@@ -34,7 +34,7 @@
    
    <div class="d500" style="">
     <div class="center2" style="">  
-<div id="landall" style=" position: absolute; left:180px" >
+<div id="landall" style=" position: absolute; left:150px" >
 <span id="left">&lt;</span>
 <span id="right"  style="left:95%;">&gt;</span>
  <button id="buttons"></button>
@@ -172,8 +172,7 @@ easy & usable for all walks of people</p></div>
  var im=document.createElement('img');
  im.id="train"
  im.src=arr[i+1];
-  im.style.left=-im.width +"px";
- landall.appendChild(im);
+  
  
  var im1=document.createElement('img');
  im1.id="train1"
@@ -184,7 +183,8 @@ easy & usable for all walks of people</p></div>
   landall.style.width=train1.width +"px";
    landall.style.height=train1.height +"px";
   //show.innerHTML = train.width;
-  
+  im.style.left=-im.width +"px";
+ landall.appendChild(im);
  };
   
   const leftf=(i1=i)=> {
