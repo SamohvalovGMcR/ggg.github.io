@@ -161,14 +161,13 @@ easy & usable for all walks of people</p></div>
  
  var im1=document.createElement('img');
  im1.id="train1"
- 
+ im1.src=arr[i];
+ landall.appendChild(im1);
  
  train1.onload = function(){   
   landall.style.width=train1.width +"px";
    landall.style.height=train1.height +"px";
   //show.innerHTML = train.width;
-  im1.src=arr[i];
- landall.appendChild(im1);
   
  };
   
