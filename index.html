@@ -171,9 +171,8 @@ easy & usable for all walks of people</p></div>
 
  var im=document.createElement('img');
  im.id="train"
- im.src=arr[i+1];
-  im.style.left=-im.width +"px";
- landall.appendChild(im);
+ im.src=arr[i];
+ 
  
  var im1=document.createElement('img');
  im1.id="train1"
@@ -185,7 +184,8 @@ easy & usable for all walks of people</p></div>
   //show.innerHTML = train.width;
   im1.src=arr[i];
  landall.appendChild(im1);
-  
+   im.style.left=-im.width +"px";
+ landall.appendChild(im);
  };
   
   const leftf=(i1=i)=> {
@@ -279,17 +279,17 @@ for(k=0;k<arr.length;k++){
  
 
 var id=setInterval(()=>{
-
-arr[i+1] ?  i++ :  i=0;
 leftf(i);
+arr[i+1] ?  i++ :  i=0;
+
 //  clearInterval();
   },4000);
   
 landall.onmouseenter=()=>clearInterval(id);
 landall.onmouseleave=()=>id=setInterval(()=>{
-
-arr[i+1] ?  i++ :  i=0;
 leftf(i);
+arr[i+1] ?  i++ :  i=0;
+
 
   },4000);
 
